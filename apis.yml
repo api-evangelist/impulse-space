@@ -1,8 +1,19 @@
 aid: impulse-space
 name: Impulse Space
-description: Impulse Space is a company surfaced as a portfolio company of dcvc, founders-fund and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Impulse Space is an American aerospace company founded in 2021 by Tom Mueller,
+  building in-space transportation and mobility infrastructure. The company
+  designs and operates orbital transfer vehicles (OTVs) that host, maneuver, and
+  deliver payloads across and between orbits for commercial, civil, and
+  government customers. Its product line includes Mira, an agile spacecraft for
+  precise payload hosting and deployment across any orbit; Helios, a high-energy
+  kick stage capable of moving up to 4,000 kg of payload from Low Earth Orbit to
+  Geostationary Orbit in under 24 hours; and a GEO Rideshare program offering
+  economical access to geostationary orbit. Impulse Space is a hardware and
+  launch-services company rather than a software API provider, and does not
+  publish a public developer portal, API, or SDKs. This profile was surfaced as
+  a portfolio company of DCVC and Founders Fund and enriched from the company's
+  public website.
 url: https://raw.githubusercontent.com/api-evangelist/impulse-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +22,29 @@ x-backed-by:
 - founders-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/f0av5ljp/production/0c7b9950fed986e0c9f69b4afc4a754faf7b60db-3840x2160.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aerospace
+- Space
+- Orbital Transfer
+- In-Space Mobility
+- Launch Services
+- Satellites
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +52,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/impulse-space-domain-security.yml
 - type: Website
   url: https://www.impulsespace.com
+- type: About
+  url: https://www.impulsespace.com/about
+- type: Careers
+  url: https://www.impulsespace.com/careers
+- type: Support
+  url: https://www.impulsespace.com/contact
+- type: Blog
+  url: https://www.impulsespace.com/updates
+- type: PrivacyPolicy
+  url: https://www.impulsespace.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
